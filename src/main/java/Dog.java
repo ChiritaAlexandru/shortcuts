@@ -18,4 +18,8 @@ public class Dog {
     public void showName(String nume) {
         System.out.println(nume);
     }
+
+    public void newMethod1(){
+        System.out.println("method1");
+    }
 }
