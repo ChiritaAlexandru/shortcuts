@@ -4,6 +4,9 @@ public class Dog {
 
     public void addNume(String nume){
         System.out.println(nume);
-        System.out.println("dog class");
+    }
+    
+      public void showName(String nume){
+        System.out.println(nume);
     }
 }
