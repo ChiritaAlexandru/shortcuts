@@ -5,6 +5,9 @@ public class Dog {
 
 
     public void addNume(String nume){
+        System.out.println();
+        System.out.println(nume);
+
         //System.out.println(nume);
         Stream.of("1","2","3")
             .mapToInt(x -> Integer.parseInt(x))
