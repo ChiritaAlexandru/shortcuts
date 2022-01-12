@@ -10,6 +10,7 @@ public class Dog {
             .mapToInt(x -> Integer.parseInt(x))
             .forEach( c -> System.out.println(c));
         System.out.println("test");
+         System.out.println("test");
     }
     
       public void showName(String nume){
