@@ -8,13 +8,12 @@ public class Dog {
     /*    System.out.println();
         System.out.println(nume);
 
-        //System.out.println(nume);
+        //System.out.println(nume); */
         Stream.of("1","2","3")
             .mapToInt(x -> Integer.parseInt(x))
             .forEach( c -> System.out.println(c));
-<<<<<<< HEAD
         System.out.println("test");
-         System.out.println("test");*/
+         System.out.println("test");
          System.out.println("test");
     }
     
