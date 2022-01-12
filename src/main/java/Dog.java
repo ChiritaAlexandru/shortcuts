@@ -17,6 +17,7 @@ public class Dog {
 
     public void showName(String nume) {
         System.out.println(nume);
+       System.out.println("showName");
     }
 
     public void newMethod1(){
