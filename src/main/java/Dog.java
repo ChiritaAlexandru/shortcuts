@@ -3,6 +3,7 @@ public class Dog {
 
 
     public void addNume(String nume){
+        System.out.println();
         System.out.println(nume);
     }
     
