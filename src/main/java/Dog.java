@@ -4,5 +4,6 @@ public class Dog {
 
     public void addNume(String nume){
         System.out.println(nume);
+
     }
 }
