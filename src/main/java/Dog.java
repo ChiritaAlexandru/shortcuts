@@ -14,7 +14,6 @@ public class Dog {
             .forEach( c -> System.out.println(c));
         System.out.println("test");
          System.out.println("test");
-         System.out.println("test");
     }
     
       public void showName(String nume){
