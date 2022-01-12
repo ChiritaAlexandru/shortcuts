@@ -6,6 +6,8 @@ public class Dog {
         System.out.println("test");
         System.out.println(nume);
         System.out.println("addName");
+         System.out.println("addName");
+        
     }
     
       public void showName(String nume){
