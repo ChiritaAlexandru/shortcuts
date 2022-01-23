@@ -20,5 +20,8 @@ public class Dog {
     }
 
     public void newMethod1(){
+        System.out.println("method1");
+        System.out.println("here ");
+        System.out.println("here3 ");
     }
 }
