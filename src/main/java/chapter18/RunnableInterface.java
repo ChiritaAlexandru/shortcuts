@@ -38,6 +38,11 @@ public class RunnableInterface {
 
         r.sum(110);
 
+        System.out.println(future.get());
+        System.out.println(future.get());
+        System.out.println(future.get());
+
+        r.sum(110);
     }
 
     /*
