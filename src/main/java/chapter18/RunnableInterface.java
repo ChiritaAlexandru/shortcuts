@@ -19,6 +19,8 @@ public class RunnableInterface {
         // method void execute(); executa task la un moment dat in viitor
 
         System.out.println("begin");
+
+        System.out.println("begin");
        // executorService.execute(task1);
         //executorService.execute(task2);
 
