@@ -8,6 +8,7 @@ import java.util.concurrent.Future;
 public class RunnableInterface {
     public static void main(String [] args) throws ExecutionException, InterruptedException {
         RunnableInterface r = new RunnableInterface();
+
         Runnable task1 = () -> {
             System.out.println("task 1");
             return;
@@ -30,11 +31,13 @@ public class RunnableInterface {
 
         Future future =executorService.submit(task1);
         System.out.println(future.get());
+
         System.out.println(future.get());
         System.out.println(future.get());
         System.out.println(future.get());
 
         r.sum(110);
+
     }
 
     /*
@@ -45,8 +48,10 @@ public class RunnableInterface {
     }
      */
 
+
     public int sum(int x){
         System.out.println(10);
         return x;
     }
+
 }
